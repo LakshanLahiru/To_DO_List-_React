@@ -1,0 +1,204 @@
+.Title {
+  text-align: center;
+  color: aliceblue;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 3px 5px black;
+  
+  
+}
+.container1{
+  width: fit-content;
+  height: auto;
+  /*border: 2px solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+  min-width:800px ;
+  background-color: aquamarine;
+  box-shadow: 0 3px 3px  rgb(2, 65, 25);
+  
+  
+  
+  
+}
+.todo_item button{
+  margin-top: 18px;
+  margin-left: 200px;
+  padding: 10px 75px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #383535;
+  
+
+}
+.todo_item button:hover {background-color: #3e8e41}
+
+.todo_item button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Input{
+  
+  text-align: left;
+  font-size: larger;
+  display: flex;
+  border-bottom: 1px solid black;
+ 
+ 
+}
+.Input1,.Input2{
+  width: 750px;
+  height: 30px;
+  /*border: 2px solid black;*/
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-shadow: 0 0 0;
+  color: black;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.todo_item{
+  text-align: left;
+  padding-left: 50px;
+
+}
+.Btn-Area{
+  
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-block: 20px;
+  border-bottom: 2px black;
+  
+
+  
+}
+.Btn-Area button{
+  padding: 10px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #d71070;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #383535;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.Btn-Area button:hover{background-color: #da0e4f}
+.Btn-Area button:active {
+  background-color: #df4889;
+  box-shadow: 0 5px #2e2b2b;
+  transform: translateY(4px);
+  
+}
+
+.TodoListItem{
+  text-align: left;
+  padding-left: 50px;
+}
+.Input1 input{
+  padding: 6px;
+  border: none;
+  width: 450px;
+  margin-left: 77px;
+}
+
+.Input2 input{
+  padding: 6px;
+  border: none;
+  width: 450px;
+  margin-left: 20px;
+}
+.l1{
+  border: 1px solid rgb(48, 211, 19);
+  padding-left: 60px;
+}
+.Todolist{
+  display: flex;
+  
+flex-direction: column;
+}
+.TodoListItem{
+  color: #060505;
+  display: flex;
+  font-size: larger;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0dde0d;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgb(39, 38, 38);
+  margin: 10px;
+  align-items: center
+
+}
+.todo_item button{
+    margin-right:100px ;
+}
+
+.icon{
+  font-size: 45px;
+  cursor: pointer;
+  color: #a70c4f;
+  font-weight: 800;
+}
+
+.icon:hover{
+  color: red;
+
+}
+
+.check-icon{
+  font-size: 45px;
+  cursor: pointer;
+  color: rgb(228, 232, 10);
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.check-icon:hover{
+  color: rgb(255, 255, 255);
+}
+.TodoListItem h2{
+  font-size: 25px;
+  color: rgb(250, 252, 251);
+  font-weight: bold;
+  margin: 0px;
+  text-shadow: 0 2px 2px black;
+}
+
+.TodoListItem h3{
+  margin-top: 8px;
+  font-size: 18px;
+  color: rgb(28, 14, 183);
+  text-shadow: 0 1px 1px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.edit{
+  font-size: 45px;
+  cursor: pointer;
+  color: rgb(234, 60, 12);
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  
+}
+.edit:hover{
+  color: rgb(255, 255, 255);
+}
+
